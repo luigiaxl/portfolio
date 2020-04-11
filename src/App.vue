@@ -3,7 +3,7 @@
     id="app"
     class="h-full flex flex-col md:flex-row"
   >
-    <AboutMe class="w-full md:w-2/6"></AboutMe>
+    <Banner class="w-full md:w-2/6"></Banner>
 
     <div class="flex-1 py-10">
       <div>
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-  import AboutMe from './components/about_me/AboutMe.vue'
+  import Banner from './components/banner/Banner.vue'
 
   const components = {
-    AboutMe
+    Banner
   }
 
   export default {
